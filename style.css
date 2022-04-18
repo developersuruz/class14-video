@@ -1,0 +1,182 @@
+/*Default CSS*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 1240px;
+    margin: auto;
+}
+
+.img{
+    max-width: 100%;
+}
+
+
+/* Transform CSS */
+.box-wrapper-1{
+    width: 1000px;
+    border: 1px solid red;
+    margin: auto;
+    margin-top: 80px;
+}
+
+h1{
+	display: inline-block;
+	margin-left: 494px;
+	font-size: 40px;
+}
+
+.basic-box{ 
+    display: inline-block;
+    height: 200px; 
+    width: 200px;    
+    transition: .5s;    
+    text-align: center;
+    line-height: 200px;
+    margin: 10px;
+    color: white;
+    font-size: 23px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 24px;
+}
+
+/* Group-1 Normal part CSS */
+.box-1{
+    background-color:#2ecc71;
+    transform: translate(10px, 100px);
+}
+
+.box-2{
+    background-color: #e74c3c;
+    transform: rotate(35deg);
+}
+
+.box-3{       
+    background-color: #1abc9c; 
+    transform: skew(2deg, 40deg);
+}
+
+.box-4{
+    background-color: #f39c12;
+    transform: scale(1.5);
+    margin-left: 70px;
+}
+
+
+/* Group-2 Hover part CSS */
+.box-wrapper-2{
+    width: 1000px;
+    border: 1px solid red;
+    margin: auto;
+    margin-top: 193px;
+}
+
+h2{
+	display: inline-block;
+	margin-left: 640px;
+	font-size: 50px;
+}
+
+.box-5{
+    background-color:#2ecc71;
+    transform: translate(0px);
+}
+
+.box-5:hover{
+    transform: translate(10px, 100px);
+}
+
+.box-6{
+    background-color: #e74c3c;
+    transform: rotate(0deg);
+}
+
+.box-6:hover{
+    transform: rotate(360deg);
+}
+
+.box-7{       
+    background-color: #1abc9c;
+    transform: skew(0deg);
+}
+
+.box-7:hover{
+    transform: skew(2deg, 40deg);
+}
+
+.box-8{
+    background-color: #f39c12;
+    margin-left: 70px;
+}
+
+.box-8:hover{
+    transform: scale(2.5);
+}
+
+/* Group-3 CSS */
+.box-wrapper-3{
+    width: 1000px;
+    border: 1px solid red;
+    margin: auto;
+    margin-top: 121px;
+}
+
+h3{
+	display: inline-block;
+	margin-left: 526px;
+	font-size: 50px;
+}
+
+.box-9{   
+    transform: rotate(0deg);
+    /*! transform: scale(0); */
+}
+
+.box-9 img{
+
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+}
+
+.box-9:hover{
+    transform: scale(2);
+    transform: rotate3d(1, 2.0, 3.0, 100deg);
+}
+
+.box-10{
+    background-color: #e74c3c;
+    transform: rotate(0deg);
+}
+
+.box-10:hover{
+    transform: rotate(360deg) scale(1.5) ;
+}
+
+.box-11{       
+    background-color: #1abc9c;
+    transform: skew(0deg);
+}
+
+.box-11:hover{
+    transform: skew(2deg, 40deg) skew(2deg, 40deg) scale(1.5);
+}
+
+.box-12{    
+    transform: scale(1);
+    transform: rotate(0deg);
+}
+
+.box-12 img{
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+} 
+
+.box-12:hover{
+    transform: rotate(360deg) scale(1.5) ;
+}
